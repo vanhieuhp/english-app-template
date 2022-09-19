@@ -1,0 +1,116 @@
+.container {
+    max-width: 1600px;
+}
+
+.col-default-format {
+    background: var(--white-color);
+    border: 2px solid transparent;
+    border-radius: var(--border-radius-medium);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 24px;
+    padding: 40px 40px 240px 40px;
+    transition: all 0.5s;
+}
+
+.col-default-format:hover .services-icon-wrap {
+    background: var(--secondary-color);
+    border-color: var(--secondary-color);
+    color: var(--white-color);
+}
+
+.col-default-format:hover {
+    border: 2px solid var(--secondary-color);
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+}
+
+.col-default-format h3{
+    /* color: var(--secondary-color); */
+}
+
+.questionBank_info {
+    width: 550px;
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius-medium);
+    transition: all 0.5s;
+}
+
+.questionBank_info:hover {
+    background: var(--secondary-color);
+
+}
+
+.questionBank_info h4 {
+    color: var(--p-color);
+    transition: all 0.2s;
+    padding: 5px 20px;
+
+}
+
+.questionBank_info:hover h4 {
+    color: var(--white-color);
+    
+}
+
+.questionBank_info_type {
+    width: 200px;
+}
+
+.questionBank_info_result {
+    margin-left: 68px;
+}
+
+/* Create Question Section */
+
+.createQ {
+    padding: 40px;
+}
+
+.createQ_header {
+    /* width: 100%; */
+    
+    
+    justify-content: space-between;
+}
+
+.createQ_header h2{
+    background: var(--secondary-color);
+    border-radius: var(--border-radius-small);
+    padding: 10px 30px;
+}
+
+.createQ_type {
+    background: var(--secondary-color);
+    border-radius: var(--border-radius-small);
+    padding: 10px 30px;
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.createQ_type option {
+    font-weight: bold;
+}
+
+
+.createQ_type:focus {
+    border-color: var(--secondary-color);
+    outline: 0;
+    box-shadow: none;
+}
+
+.createQ_btn {
+    padding: 10px;
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius-medium);
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.createQ_btn:hover {
+    background-color: #0e9b73;
+}
