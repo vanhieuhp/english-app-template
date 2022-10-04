@@ -1,0 +1,53 @@
+/* model style  */
+.model-style {
+    border-radius: var(--border-radius-medium);
+    /* margin: 20px; */
+    padding: 20px;
+}
+
+
+/* flash-card collection */
+.flc-collection {
+    margin-top: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.flc-collection-select  {
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.flc-collection-btn-create {
+    border-radius: var(--border-radius-medium);
+    padding: 13px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--p-color);
+    background: var(--white-color);
+    border: 2px solid var(--border-color);
+}
+
+.flc-collection-btn-create:hover {
+    background: var(--secondary-color);
+}
+
+/* flashcard insertion */
+.flc-insertion {
+
+}
+
+.flc-insertion-elements {
+    margin-top: 20px;
+}
+
+.flc-insertion-input {
+
+}
+
+.flc-insertion-btn {
+    width: 125px;
+    margin: auto;
+}

@@ -114,3 +114,9 @@
 .createQ_btn:hover {
     background-color: #0e9b73;
 }
+
+.test_answer {
+    display: flex;
+    justify-content: space-between;
+}
+    
